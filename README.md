@@ -11,8 +11,6 @@ Repository for Group 4's major course output in **CSMODEL (Section S07)**. This 
 * TIU, KYLE THOMAS E.
 * UY, TARA YSABEL P.
 
----
-
 ## Project Assets & Links
 * [Slide Deck](https://canva.link/slidedeckgroup4)
 * [490K Spotify Song Audio Embeddings & Metadata](https://www.kaggle.com/datasets/serkantysz/490k-spotify-song-audio-embeddings-and-metadata/data)
