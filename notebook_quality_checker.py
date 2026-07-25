@@ -32,7 +32,7 @@ import os
 
 
 # Settings
-notebook_path = "MCO with statistical inferences.ipynb"
+notebook_path = "MCO2.ipynb"
 MAX_MARKDOWN_WORDS = 5000
 MAX_WORDS_PER_CELL = 100
 MAX_FIGURES = 15
@@ -69,7 +69,7 @@ markdown_cell_counts = []
 figure_count = 0
 
 # Check Cells
-for index, cell in enumerate(notebook.cells):
+for index, cell in enumerate(notebook.cells, start=1):
     # Markdown cells
     if cell.cell_type == "markdown":
 
@@ -82,7 +82,8 @@ for index, cell in enumerate(notebook.cells):
         markdown_cell_counts.append(
             {
                 "cell": index,
-                "words": words
+                "words": words,
+                "preview": cell.source[:80].replace("\n", " ")
             }
         )
 
@@ -133,6 +134,9 @@ else:
     for cell in too_long_cells:
         print(
             f"Cell {cell['cell']}: {cell['words']} words"
+        )
+        print(
+            f"  Preview: {cell['preview']}..."
         )
 
 
