@@ -14,5 +14,5 @@ Repository for Group 4's major course output in **CSMODEL (Section S07)**. This 
 ## Project Assets & Links
 * [MCO1 Slide Deck](https://canva.link/slidedeckgroup4)
 * [490K Spotify Song Audio Embeddings & Metadata](https://www.kaggle.com/datasets/serkantysz/490k-spotify-song-audio-embeddings-and-metadata/data)
-* [MCO2 Poster]
+* [MCO2 Poster](https://canva.link/csmodel-mco2-group4-s07)
 
